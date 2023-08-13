@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+*{
+    font-family: sans-serif ;
+}
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#cima{
+    /* background-color: red; */
+    background-image: url(/img/wp7064462-vans-sneakers-wallpapers\ \(1\).jpg);
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+#meiocima{
+    height: 100%;
+    width: 80%;
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: column;
+}
+#menucima{
+    width: 100%;
+    height: 110px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+}
+#menuu{
+    width: 100%;
+    height: 140px;
+    /* background-color: brown; */
+    /* position: fixed; */
+    display: flex;
+    border-bottom: 1px solid whitesmoke;
+    justify-content: space-between;
+}
+#logo{
+    height: 100%;
+    width: 180px;
+    background-color: #fd332f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #fd332f;
+}
+.logoo{
+    height: 40px;
+    width: 80px;
+}
+#menuprin{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#searchpart{
+    width: 300px;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+}
+.partbsear{
+    height: 100%;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.inpt{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+#btnsearch{
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+}
+#icc{
+    font-size: 15px;
+    color: white;
+    margin-top: 6px;
+}
+#meunn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.ilpon{
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    background-color: transparent;
+}
+.ilpon:hover{
+    color: #fd332f;
+}
+
+#inputtext{
+    color: whitesmoke;
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    outline: none;
+}
+#inputtext::placeholder{
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+#notif{
+    height: 100%;
+    width: 140px;
+    /* background-color: aqua; */
+    border-left: 1px solid whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cart{
+    color: #fd332f;
+    font-size: 25px;
+}
+#opp{
+    width: 100%;
+    height: 80px;
+}
+#opcaop{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.btncateg{
+    padding: 10px;
+    color: white;
+    background-color: transparent;
+    font-size: 15px;
+    border: none;
+}
+.btncateg:hover{
+    color: #fd332f;
+}
+
+#eventocima{
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+}
+#prtttt{
+    padding-top: 60px;
+    width: 100%;
+    height: 700px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    /* padding-left: 50px; */
+}
+#diveres{
+    width: 80%;
+    height: 80%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.titulo{
+    color: white;
+    font-size: 70px;
+    margin: 0;
+    padding: 0;
+}
+.parag{
+    color: whitesmoke;
+    font-size: 15px;
+    padding-top: 4px;
+    margin: 0;
+}
+.btndisc{
+    margin-top: 10px;
+}
+#btndiscover{
+    background-color: #fd332f;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+#partsss{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10%;
+}
+#cimabbb{
+    width: 40%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+#bcroll{
+    border: none;
+    padding: 20px;
+    background-color: transparent;
+}
+#btnscroll{
+    font-size: 40px;
+    color: white;
+}
+#btnscroll:hover{
+    color: #fd332f;
+}
