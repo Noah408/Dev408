@@ -1,7 +1,7 @@
 #meio{
     background-color: white;
     width: 100%;
-    height: 2000px;
+    height: 1430px;
     display: flex;
     justify-content: center;
 }
@@ -192,7 +192,7 @@
 }
 #roupesq{
     height: 450px;
-    width: 766px;
+    width: 772px;
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -219,11 +219,11 @@
     /* background-color: cadetblue; */
     display: flex;
     align-items: center;
-    padding-left: 50px;
+    padding-left: 25px;
     position: relative;
 }
 .txxxx{
-    font-size: 40px;
+    font-size: 30px;
     padding: 0;
     margin: 0;
 }
@@ -244,16 +244,16 @@
     width: 100%;
     display: flex;
     align-items: center;
-    padding-left: 50px;
+    padding-left: 25px;
     margin-top: 30px;
 }
 .btnshop{
     border: none;
     background-color: #fd332f;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 17px;
+    padding-bottom: 17px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -267,7 +267,7 @@
     /* background-color: blue;  */
     display: flex;
     justify-content: space-between;
-    padding-right: 10px;
+    padding-right: 50px;
 }
 .btnre{
     width: 40px;
@@ -335,12 +335,201 @@
 
 #roupdir{
     height: 450px;
-    width: 506px;
+    width: 508px;
     background-color: white;
     transition: all .3s;
     border-radius: 5px;
     box-shadow: 0px 1px 2px 0px rgba(146, 146, 140, 0.331);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 #roupdir:hover{
     box-shadow: 0px 1px 3px 0px rgb(114, 114, 109);
+}
+.texskate{
+    height: 90%;
+    width: 250px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.partskate{
+    height: 90%;
+    width: 250px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5px;
+}
+.skatebord{
+    height: 100%;
+    width: 100%;
+}
+
+#propaganda{
+    width: 100%;
+    height: 410px;
+    /* background-color: #fd332f; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#propaft{
+    width: 772px;
+    height: 400px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fototoo{
+    height: 100%;
+    width: 248px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px 0px rgba(146, 146, 140, 0.331);
+    transition: all .3s;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+.fototoo:hover{
+    box-shadow: 0px 1px 3px 0px rgb(114, 114, 109);
+}
+.fotooce{
+    width: 95%;
+    height: 95%;
+    /* background-color: #fd332f; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.estremos{
+    height: 30px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+.areee{
+    height: 100%;
+    width: 30px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+}
+.nunff{
+    font-size: 12px;
+    color: rgb(88, 88, 88);
+}
+.btnheart{
+    border: none;
+    background-color: transparent;
+    color: rgb(88, 88, 88);
+    padding: 2px;
+    transition: all .3s;
+}
+.fototoo:hover .btnheart{
+    color: #fd332f;
+}
+.esemos{
+    height: 20px;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.nuiten{
+    font-size: 18px;
+    color: rgb(88, 88, 88);
+}
+.localff{
+    height: 250px;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cimapropa{
+    width: 100%;
+    height: 250px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.imfpaig::after{
+    content: " ";
+    position: absolute;
+    border-radius: 7px;
+    background-color: black;
+    display: block;
+    width: 25px;
+    height: 3px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.parimpaig{
+    width: 100%;
+    height: 140px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fotoocoisa{
+    height: 100%;
+    width: 70%;
+}
+.imfpaig{
+    position: relative;
+    width: 100%;
+    height: 75px;
+    /* background-color: hotpink; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vvbb{
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+.vermais{
+    width: 100%;
+    height: 30px;
+    /* background-color: #fd332f; */
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    /* align-items: center; */
+}
+.seeee{
+    font-size: 15px;
+    color: red;
+}
+
+
+#propashoes{
+    width: 508px;
+    height: 400px;
+    background-color: white;
+    transition: all .3s;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px 0px rgba(146, 146, 140, 0.331);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#propashoes:hover{
+    box-shadow: 0px 1px 3px 0px rgb(114, 114, 109);
+}
+.skaebord{
+    height: 350px;
+    width: 180px;
+    /* object-fit: cover; */
 }

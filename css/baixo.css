@@ -1,5 +1,151 @@
 #baixo{
     background-color: #202020;
     width: 100%;
-    height: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+#baixcentro{
+    width: 78%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+.parvazia{
+    width: 100%;
+    height: 50px;
+    /* background-color: aliceblue; */
+}
+.baibaixo{
+    width: 100%;
+    height: 80px;
+    background-color: #202020;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid gray;
+}
+.cebba{
+    width: 100%;
+    height: 50px;
+    /* background-color: wheat; */
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.btnnnn{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    height: 100%;
+    width: 150px;
+    /* background-color: #fd332f; */
+}
+.btnpaga{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: aliceblue;
+    height: 30px;
+    width: 40px;
+    border-radius: 2px;
+}
+.imgpaga{
+    height: 80%;
+    width: 90%;
+}
+
+
+.fimm{
+    font-size: 14px;
+    color: gray;
+}
+.partepbaixo{
+    width: 100%;
+    height: 250px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+.quatex{
+    height: 100%;
+    width: 22%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+}
+.placar{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+.textplacar{
+    color: aliceblue;
+    font-size: 13px;
+}
+.imfplacar{
+    margin-top: 15px;
+    width: 100%;
+    height: 150px;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+}
+.texpq{
+    font-size: 10px;
+    margin-top: 12px;
+    color: gray;
+}
+.infosocial{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: end;
+}
+.logosocial{
+    font-size: 20px;
+    color: gray;
+    margin-right: 17px;
+}
+.rrrr{
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+#entrafinal{
+    /* background-color: aliceblue; */
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btnfinalent{
+    border: 1px solid #fd332f;
+    background-color: #fd332f;
+    height: 100%;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#entr{
+    height: 36px;
+    width: 189px;
+    border: 1px solid rgb(59, 59, 59);
+    border-right: none ;
+    background-color: #202020;
+    outline: none;
+    color: gray;
+    font-size: 10px;
+    padding-left: 10px;
+}
+#ceta{
+    font-size: 17px;
+    color: aliceblue;
+    margin-top: 3px;
 }
